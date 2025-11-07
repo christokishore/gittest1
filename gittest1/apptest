@@ -9,4 +9,4 @@ auth.log.3.gz     faillog            mail.info.4.gz  mail.log.28.gz  mail.log.5.
 auth.log.4.gz     installer          mail.log        mail.log.29.gz  mail.log.6.gz   php7.4-fpm.log.11.gz  syslog.5.gz
 btmp              journal            mail.log.1      mail.log.2.gz   mail.log.7.gz   php7.4-fpm.log.12.gz  syslog.6.gz
 btmp.1            kern.log           mail.log.10.gz  mail.log.30.gz  mail.log.8.gz   php7.4-fpm.log.2.gz   syslog.7.gz
-daemon.log  
+daemon.log test 
