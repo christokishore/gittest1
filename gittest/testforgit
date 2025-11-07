@@ -1,0 +1,182 @@
+qwerty
+qwertyu
+qwertyuiop
+asdfghjkl;'
+zxcvbnm,./\
+1234567890-
+
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git push -u origin main
+Username for 'https://github.com': christokishore
+Password for 'https://christokishore@github.com': 
+To https://github.com/christokishore/kishore.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/christokishore/kishore.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git branch -M main
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git push -u origin main
+Username for 'https://github.com': christokishore
+Password for 'https://christokishore@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/christokishore/kishore.git/'
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git push -u origin main
+Username for 'https://github.com': christokishore
+Password for 'https://christokishore@github.com': 
+To https://github.com/christokishore/kishore.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/christokishore/kishore.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git config --global credential.helper store
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git push -u origin main
+Username for 'https://github.com': christokishore 
+Password for 'https://christokishore@github.com': 
+To https://github.com/christokishore/kishore.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/christokishore/kishore.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git config --global credential.helper store
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git push -u origin main
+To https://github.com/christokishore/kishore.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/christokishore/kishore.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git pull origin main --rebase
+git push -u origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 881 bytes | 881.00 KiB/s, done.
+From https://github.com/christokishore/kishore
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Successfully rebased and updated refs/heads/main.
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (31/31), 1.29 MiB | 2.44 MiB/s, done.
+Total 31 (delta 12), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/christokishore/kishore.git
+   aa51a17..ddc3800  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git push origin main --force
+Everything up-to-date
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# cd /home/christo/Desktop/git
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git branch
+  ls
+* main
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git pull origin main --rebase
+From https://github.com/christokishore/kishore
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git push -u origin main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# ls
+'@!'   DEVA.pdf   edits.txt   README.md   testgit
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# ls -la 
+total 1388
+drwxr-xr-x  3 root root    4096 Nov  6 22:18  .
+drwxr-xr-x 12 1005 1005    4096 Oct  4 15:07  ..
+-rw-r--r--  1 root root      49 Nov  6 22:18 '@!'
+-rw-r--r--  1 root root 1383656 Nov  6 22:18  DEVA.pdf
+-rw-r--r--  1 root root    5280 Nov  6 22:18  edits.txt
+drwxr-xr-x  8 root root    4096 Nov  6 22:19  .git
+-rw-r--r--  1 root root      26 Nov  6 22:18  README.md
+-rw-r--r--  1 root root      81 Nov  6 22:18  testgit
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# ls
+'@!'   DEVA.pdf   edits.txt   README.md   testgit
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# rm -rvf DEVA.pdf 
+removed 'DEVA.pdf'
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    DEVA.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git commit -m "deleted deva"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    DEVA.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    DEVA.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git add .
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    DEVA.pdf
+
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git commit -m "deleted deva"
+[main d71d27c] deleted deva
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 DEVA.pdf
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 220 bytes | 220.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/christokishore/kishore.git
+   ddc3800..d71d27c  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/git# cd ..
+root@cruvz-ThinkPad-T440:/home/christo/Desktop# mkdir gittest 
+root@cruvz-ThinkPad-T440:/home/christo/Desktop# cd gittest/
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/gittest# ls
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/gittest# vi testforgit
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/gittest# git add testforgit 
+fatal: detected dubious ownership in repository at '/home/christo/Desktop'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/christo/Desktop
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/gittest# git status 
+fatal: detected dubious ownership in repository at '/home/christo/Desktop'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/christo/Desktop
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/gittest# git config --global --add safe.directory /home/christo/Desktop
+root@cruvz-ThinkPad-T440:/home/christo/Desktop/gittest# git status 
+On branch master
+
+No commits yet
+
+

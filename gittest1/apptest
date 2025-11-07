@@ -1,0 +1,12 @@
+alternatives.log  dpkg.log.1         mail.err.2.gz   mail.log.21.gz  mail.log.39.gz  messages.2.gz         private
+apache2           etc                mail.err.3.gz   mail.log.22.gz  mail.log.3.gz   messages.3.gz         proftpd
+apt               fail2ban.log       mail.err.4.gz   mail.log.23.gz  mail.log.40.gz  messages.4.gz         sogo
+aptitude          fail2ban.log.1     mail.info       mail.log.24.gz  mail.log.41.gz  mysql                 syslog
+auth.log          fail2ban.log.2.gz  mail.info.1     mail.log.25.gz  mail.log.42.gz  nginx                 syslog.1
+auth.log.1        fail2ban.log.3.gz  mail.info.2.gz  mail.log.26.gz  mail.log.43.gz  php7.4-fpm.log        syslog.2.gz
+auth.log.2.gz     fail2ban.log.4.gz  mail.info.3.gz  mail.log.27.gz  mail.log.4.gz   php7.4-fpm.log.1      syslog.3.gz
+auth.log.3.gz     faillog            mail.info.4.gz  mail.log.28.gz  mail.log.5.gz   php7.4-fpm.log.10.gz  syslog.4.gz
+auth.log.4.gz     installer          mail.log        mail.log.29.gz  mail.log.6.gz   php7.4-fpm.log.11.gz  syslog.5.gz
+btmp              journal            mail.log.1      mail.log.2.gz   mail.log.7.gz   php7.4-fpm.log.12.gz  syslog.6.gz
+btmp.1            kern.log           mail.log.10.gz  mail.log.30.gz  mail.log.8.gz   php7.4-fpm.log.2.gz   syslog.7.gz
+daemon.log  

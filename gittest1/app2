@@ -1,0 +1,7 @@
+declare -A BACKUP_FOLDERS
+BACKUP_FOLDERS["oldmail_hosur_INBOX"]="INBOX"
+BACKUP_FOLDERS["oldmail_hosur_INBOX-cersai"]="INBOX"
+BACKUP_FOLDERS["oldmail_hosur_INBOX-circul"]="INBOX"
+BACKUP_FOLDERS["oldmail_hosur_sent"]="Sent"
+BACKUP_FOLDERS["oldmail_hosur_Sent"]="Sent"
+BACKUP_FOLDERS["oldmail_hosur_Sent-Sent Back"]="Sent"
