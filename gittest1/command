@@ -1,0 +1,57 @@
+ 1341  mkdir gittest1
+ 1342  git status 
+ 1343  git add gittest1
+ 1344  vi gittest1/
+ 1345  cd gittest
+ 1346  ls
+ 1347  cd ..
+ 1348  cd gittest1
+ 1349  touch app
+ 1350  vi apptest
+ 1351  vi app1
+ 1352  vi app2
+ 1353  git status
+ 1354  git add .
+ 1355  git status
+ 1356  geit commit -m "adding new file"
+ 1357  git commit -m "adding new file"
+ 1358  git branch
+ 1359  git branch -M main
+ 1360  git branch -a
+ 1361  git branch -M master
+ 1362  git remote add origin https://github.com/christokishore/gittest1.git
+ 1363  git remote remove origin
+ 1364  git remote add origin https://github.com/christokishore/gittest1.git
+ 1365  ls
+ 1366  git push -u origin main
+ 1367  git branch -M master
+ 1368  git remote add origin https://github.com/christokishore/gittest1.git
+ 1369  git branch
+ 1370  git checkout branch
+ 1371  git push -u origin master
+ 1372  git branch -M main   
+ 1373  git push -u origin main 
+ 1374  git branch -M master 
+ 1375  git push -u origin mster 
+ 1376  git push -u origin master 
+ 1377  git push -u origin main
+ 1378  git branch -M main
+ 1379  git push -u origin main
+ 1380  ls
+ 1381  vi apptest 
+ 1382  git status 
+ 1383  git add apptest
+ 1384  git commit -m "test for commit"
+ 1385  git branch -M main
+ 1386  git push -u origin main
+ 1387  git remote add origin https://github.com/christokishore/gittest1.git
+ 1388  git branch
+ 1389  git remote -v
+ 1390  git push -u origin main
+ 1391  git remote set-url origin https://github.com/christokishore/gittest1.git
+ 1392  git push -u origin main
+ 1393  git pull origin main --allow-unrelated-histories
+ 1394  git push -u origin main
+ 1395  git push -u origin main --force
+ 1396  history 
+tst
